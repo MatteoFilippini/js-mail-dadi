@@ -43,3 +43,11 @@ console.log('utente: ', userNum);
 const cpuNum = Math.round(Math.random() * 10);
 console.log('computer: ', cpuNum);
 
+if (userNum === cpuNum) {
+    console.log('PAREGGIO');
+} else if (userNum > cpuNum) {
+    console.log('VITTORIA');
+} else {
+    console.log('SCONFITTA');
+}
+
